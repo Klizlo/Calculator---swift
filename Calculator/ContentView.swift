@@ -13,7 +13,7 @@ struct ContentView: View {
         VStack {
             Spacer()
             Text("Kalkulator")
-                .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+                .font(.largeTitle)
             Spacer()
             TextField("", text: $result)
                 .frame(width: 315, height: 60)
@@ -48,6 +48,7 @@ struct ContentView: View {
             }
                 .frame(width: 315, height: 60)
                 .border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/, width: 2)
+                .font(.largeTitle)
         }
         .padding()
     }
