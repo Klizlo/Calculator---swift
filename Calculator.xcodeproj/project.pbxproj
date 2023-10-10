@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F42F6D62AD59C1A00CDEF33 /* OperationsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F42F6D32AD59ADD00CDEF33 /* OperationsTest.swift */; };
 		3FF718552ACC669C00C97E7A /* CalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF718542ACC669C00C97E7A /* CalculatorApp.swift */; };
 		3FF718572ACC669C00C97E7A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF718562ACC669C00C97E7A /* ContentView.swift */; };
 		3FF718592ACC669D00C97E7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FF718582ACC669D00C97E7A /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F42F6D32AD59ADD00CDEF33 /* OperationsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationsTest.swift; sourceTree = "<group>"; };
 		3FF718512ACC669C00C97E7A /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FF718542ACC669C00C97E7A /* CalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorApp.swift; sourceTree = "<group>"; };
 		3FF718562ACC669C00C97E7A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -78,7 +80,6 @@
 		3FF718482ACC669C00C97E7A = {
 			isa = PBXGroup;
 			children = (
-				3FF718802ACC6CB600C97E7A /* Calculations.swift */,
 				3FF718532ACC669C00C97E7A /* Calculator */,
 				3FF718642ACC669D00C97E7A /* CalculatorTests */,
 				3FF7186E2ACC669D00C97E7A /* CalculatorUITests */,
@@ -99,6 +100,7 @@
 		3FF718532ACC669C00C97E7A /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				3FF718802ACC6CB600C97E7A /* Calculations.swift */,
 				3FF718542ACC669C00C97E7A /* CalculatorApp.swift */,
 				3FF718562ACC669C00C97E7A /* ContentView.swift */,
 				3FF718582ACC669D00C97E7A /* Assets.xcassets */,
@@ -119,6 +121,7 @@
 		3FF718642ACC669D00C97E7A /* CalculatorTests */ = {
 			isa = PBXGroup;
 			children = (
+				3F42F6D32AD59ADD00CDEF33 /* OperationsTest.swift */,
 				3FF718652ACC669D00C97E7A /* CalculatorTests.swift */,
 			);
 			path = CalculatorTests;
@@ -275,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FF718662ACC669D00C97E7A /* CalculatorTests.swift in Sources */,
+				3F42F6D62AD59C1A00CDEF33 /* OperationsTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
